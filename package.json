@@ -1,0 +1,32 @@
+{
+  "name": "react-native-swiper",
+  "keywords": [
+    "react-component",
+    "react-native"
+  ],
+  "version": "0.1.0",
+  "description": "Lightbox/Gallery component for React Native.",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel src --out-dir dist --presets es2015,react",
+    "watch": "babel src --out-dir dist --watch --presets es2015,react"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pelmet/react-native-lightbox.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pelmet/react-native-lightbox/issues"
+  },
+  "homepage": "https://github.com/pelmet/react-native-lightbox/",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1"
+  },
+  "dependencies": {
+    "react-native-transformable-image": "0.0.18"
+  }
+}
